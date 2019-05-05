@@ -25,4 +25,4 @@ if __name__ == '__main__':
     )
     temp_c = read_temp()
     acct_id = mastodon.account_verify_credentials()['id']
-    mastodon.toot(f"Hello, #pycon2019! Current temperature is {temp_c}C")
+    mastodon.toot(f"Hello, pycon! Current temperature is {temp_c}C")
